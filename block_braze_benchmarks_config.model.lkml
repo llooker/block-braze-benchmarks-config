@@ -17,10 +17,6 @@ explore: braze_benchmarks_2_0_365_config {
   label: "Engagement Benchmarks 365"
   extends: [braze_benchmarks_2_0_365_core]
   extension: required
-  conditionally_filter: {
-    filters: [braze_benchmarks_2_0_365_core.industry: "All Industries"]
-    unless: [braze_benchmarks_2_0_365_core.industry]
-  }
 }
 
 explore: braze_benchmarks_2_0_avg_time_to_purchase_config {
@@ -30,10 +26,6 @@ explore: braze_benchmarks_2_0_avg_time_to_purchase_config {
   label: "Average Time to Purchase Benchmarks"
   extends: [braze_benchmarks_2_0_avg_time_to_purchase_core]
   extension: required
-  conditionally_filter: {
-    filters: [braze_benchmarks_2_0_avg_time_to_purchase_core.industry: "All Industries"]
-    unless: [braze_benchmarks_2_0_avg_time_to_purchase_core.industry]
-  }
 }
 
 explore: braze_benchmarks_2_0_daily_retention_config {
@@ -43,10 +35,6 @@ explore: braze_benchmarks_2_0_daily_retention_config {
   label: "Daily Retention Benchmarks"
   extends: [braze_benchmarks_2_0_daily_retention_core]
   extension: required
-  conditionally_filter: {
-    filters: [braze_benchmarks_2_0_daily_retention_core.industry: "All Industries"]
-    unless: [braze_benchmarks_2_0_daily_retention_core.industry]
-  }
 }
 
 explore: braze_benchmarks_2_0_dow_config {
@@ -56,10 +44,6 @@ explore: braze_benchmarks_2_0_dow_config {
   label: "Engagement Benchmarks Day of Week"
   extends: [braze_benchmarks_2_0_dow_core]
   extension: required
-  conditionally_filter: {
-    filters: [braze_benchmarks_2_0_dow_core.industry: "All Industries"]
-    unless: [braze_benchmarks_2_0_dow_core.industry]
-  }
 }
 
 explore: braze_benchmarks_2_0_monthly_config {
@@ -69,10 +53,6 @@ explore: braze_benchmarks_2_0_monthly_config {
   label: "Engagement Benchmarks Monthly"
   extends: [braze_benchmarks_2_0_monthly_core]
   extension: required
-  conditionally_filter: {
-    filters: [braze_benchmarks_2_0_monthly_core.industry: "All Industries"]
-    unless: [braze_benchmarks_2_0_monthly_core.industry]
-  }
 }
 
 explore: braze_benchmarks_2_0_monthly_retention_config {
@@ -82,10 +62,6 @@ explore: braze_benchmarks_2_0_monthly_retention_config {
   label: "Monthly Retention Benchmarks"
   extends: [braze_benchmarks_2_0_monthly_retention_core]
   extension: required
-  conditionally_filter: {
-    filters: [braze_benchmarks_2_0_monthly_retention_core.industry: "All Industries"]
-    unless: [braze_benchmarks_2_0_monthly_retention_core.industry]
-  }
 }
 
 explore: braze_benchmarks_2_0_purchase_retention_config {
@@ -95,10 +71,6 @@ explore: braze_benchmarks_2_0_purchase_retention_config {
   label: "Purchase Retention Benchmarks"
   extends: [braze_benchmarks_2_0_purchase_retention_core]
   extension: required
-  conditionally_filter: {
-    filters: [braze_benchmarks_2_0_purchase_retention_core.industry: "All Industries"]
-    unless: [braze_benchmarks_2_0_purchase_retention_core.industry]
-  }
 }
 
 explore: braze_benchmarks_2_0_user_acquisition_config {
@@ -108,8 +80,4 @@ explore: braze_benchmarks_2_0_user_acquisition_config {
   label: "User Acquisition Benchmarks"
   extends: [braze_benchmarks_2_0_user_acquisition_core]
   extension: required
-  conditionally_filter: {
-    filters: [braze_benchmarks_2_0_user_acquisition_core.industry: "All Industries"]
-    unless: [braze_benchmarks_2_0_user_acquisition_core.industry]
-  }
 }
